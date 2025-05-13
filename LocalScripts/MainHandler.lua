@@ -88,11 +88,11 @@ local players = game:GetService("Players")
 local getPlayersWithPermissions: RemoteFunction = eventsFolder:WaitForChild("GetPlayersPerms")
 
 local chatTags = {
-	owner   = { emoji = "", color = "#FF0000", display = " 👑 Owner " },
-	admin   = { emoji = "", color = "#00FF00", display = " 🛡️ Admin " },
+	["owner"]   = { emoji = "", color = "#FF0000", display = " 👑 Owner " },
+	["admin"]   = { emoji = "", color = "#00FF00", display = " 🛡️ Admin " },
 	["mod+"] = { emoji = "", color = "#FFA500", display = " ⚡ Mod+ " },
-	mod     = { emoji = "", color = "#FFFF00", display = " 🔧 Mod " },
-	vip     = { emoji = "", color = "#00FFFF", display = " 💎 Vip " },
+	["mod"]     = { emoji = "", color = "#FFFF00", display = " 🔧 Mod " },
+	["vip"]     = { emoji = "", color = "#00FFFF", display = " 💎 Vip " },
 }
 
 local function GetRoleForPlayer(player)
