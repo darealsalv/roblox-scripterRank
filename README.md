@@ -11,6 +11,6 @@
 - Main Local Script (`LocalScripts/Handler.lua`)
 
 ## Notes
-The biggest script of this rep is `ServerScripts/Handler.lua`, obviously, you don't have to read it all, it just contains all functions for each command, starting from line `579`, `RunCommand`
+The biggest script of this rep is `ServerScripts/Handler.lua`, obviously, you don't have to read it all, it just contains all functions for each command, starting from line `551`, `RunCommand`
 
 This project also used `TopBarPlus`, which is used at `LocalScripts/MainHandler.lua`
