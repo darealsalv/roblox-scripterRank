@@ -117,6 +117,7 @@ local essentialRoles = {
 	player = true,
 }
 
+-- for some reason i struggled a lot to do this
 function m:CleanAndConsolidatePermissions()
 	local bestEntry = {}
 	local duplicates = {}
