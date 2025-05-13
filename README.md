@@ -1,8 +1,5 @@
 # Roblox Scripting Rank Submission
 
-- Total Lines: ~8,000
-- Language: Luau (Roblox API)
-
 ## Most important scripts
 - Permissions Handling (`Modules/Server&Client/Permissions.lua`)
 - Commands Module (`Modules/Server&Client/Commands.lua`)
