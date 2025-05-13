@@ -1,5 +1,3 @@
-print("🛡️ [Dar's Admin] 🛡️ Running admin panel!")
-
 local startTime = tick()
 
 local assetsFolder = game:GetService("ReplicatedStorage"):WaitForChild("Dar's Admin - Assets")
