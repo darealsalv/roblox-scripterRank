@@ -216,7 +216,6 @@ local isOnPhone
 
 if UIS.TouchEnabled and UIS.KeyboardEnabled == false then
 	isOnPhone = true
-	warn("PLAYER IS ON PHONE")
 end
 
 local function FocusLost(enterPressed)
