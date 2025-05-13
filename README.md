@@ -11,6 +11,6 @@
 - Main Local Script (`Handler.lua`)
 
 ## Notes
-The most important script of this project is `Dar's Admin - Handler`, obviously, you don't have to read it all, it just contains all functions for each command, starting from line `579`, `RunCommand`
+The biggest script of this rep is `Handler`, obviously, you don't have to read it all, it just contains all functions for each command, starting from line `579`, `RunCommand`
 
 This project also used `TopBarPlus`, which is used at `LocalMainHandler.lua`
