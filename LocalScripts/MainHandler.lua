@@ -100,7 +100,7 @@ local function GetRoleForPlayer(player)
 		
 		if role ~= "player" then
 			
-			for _, entry in ipairs(entries) do
+			for i, entry in ipairs(entries) do
 				
 				if entry.Id and entry.Id == player.UserId then
 					return role
