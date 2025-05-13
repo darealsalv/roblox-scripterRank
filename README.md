@@ -4,7 +4,6 @@
 - Language: Luau (Roblox API)
 
 ## Most important scripts
-- Session locking system (see `Modules/Server/SessionLocker.lua`)
 - Permissions Handling (`Modules/Server&Client/Permissions.lua`)
 - Commands Module (`Modules/Server&Client/Commands.lua`)
 - Main Script (`ServerScripts/Handler.lua`)
