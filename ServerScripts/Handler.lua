@@ -65,34 +65,6 @@ print(blindModule.BlindTypes)
 
 ----------------------------------------------------------------------------------------------
 
-local sessionLocker = require(serverModules:WaitForChild("SessionLocker"))
-local players = game:GetService("Players")
-
-local sessionLockActivated = false
-
-players.PlayerAdded:Connect(function(player)
-	if not sessionLockActivated then return end
-	
-	local success, reason = sessionLocker:Lock(player)
-	if not success then
-		player:Kick("Duplicate session detected: " .. (reason or "Unknown reason"))
-	end
-end)
-
-players.PlayerRemoving:Connect(function(player)
-	sessionLocker:Unlock(player)
-end)
-
-game:BindToClose(function()
-	sessionLocker:UnlockAll()
-end)
-
-local function ToggleSessionLocks(toggle: boolean)
-	sessionLockActivated = toggle
-	return
-end
-
-
 ---------- Mod Chat Handler ----------
 
 local modChatModule = require(DarAssetsFolder.Modules["Server&Client"]["Mod Chat Handler"])
